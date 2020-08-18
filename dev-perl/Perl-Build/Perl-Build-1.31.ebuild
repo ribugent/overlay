@@ -23,4 +23,6 @@ src_compile() {
 src_install() {
 	dodir "/opt/plenv/plugins"
 	cp -R "${S}" "${D}/opt/plenv/plugins/perl-build" || die "Install failed"
+	dosym "../../opt/plenv/plugins/perl-build/bin/plenv-install" "/usr/bin/plenv-install"
+	dosym "../../opt/plenv/plugins/perl-build/bin/plenv-uninstall" "/usr/bin/plenv-uninstall"
 }
