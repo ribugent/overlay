@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+
+<repositories version="1.0">
+	<repo priority="50" quality="experimental" status="unofficial">
+		<name>ribugent</name>
+		<description>Ribugent Gentoo overlay</description>
+		<homepage>https://github.com/ribugent/overlay</homepage>
+		<owner>
+			<email>ribugent@gmail.com</email>
+		</owner>
+		<source type="git">https://github.com/ribugent/overlay.git</source>
+	</repo>
+</repositories>
