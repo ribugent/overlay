@@ -12,7 +12,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-DEPEND="app-shells/bash:0"
+DEPEND="app-shells/bash:0 dev-perl/Perl-Build"
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
